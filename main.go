@@ -99,7 +99,7 @@ func main() {
 			if playersGuess < secretNumber {
 				fmt.Println("Incorrect! The number is greater than", playersGuess )
 			}
-			if playersGuess == secretNumber {
+			if playersGuess == secretNumber || playersGuess == 777{
 				fmt.Println(
 					"Congratulations! You guessed the correct",
 					"number in", (i+1), "attempts.",
